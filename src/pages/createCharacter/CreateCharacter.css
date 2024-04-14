@@ -1,0 +1,43 @@
+.char-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.char-form-input {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.char-form-input:focus {
+  background-color: gold;
+}
+
+.char-form-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gold;
+  border-radius: 10px;
+  background-color: gold;
+  width: 80px;
+  height: 30px;
+}
+
+.char-form-submit:hover {
+  cursor: pointer;
+}
+
+.no-char {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: x-large;
+  color: gold;
+}

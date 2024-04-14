@@ -1,0 +1,25 @@
+.input-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.input,
+.selector {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 15%;
+  height: 40px;
+  padding: 5px;
+}
+
+.input {
+  margin-right: 100px;
+}
+
+.input:focus,
+.selector:focus {
+  background-color: rgba(180, 180, 180, 0.5);
+}
